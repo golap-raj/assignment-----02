@@ -105,6 +105,9 @@ header{
     font-weight: 400;
     color: Black;
 }
+.button{
+    text-align: center;
+}
 .banner-button{
     background-color: black;
     padding: 10px 30px;
@@ -113,6 +116,7 @@ header{
     font-size: 1.2rem;
     border: none;
     border-radius: 12px;
+    ;
     
 }
 /* main section */
