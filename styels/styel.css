@@ -287,7 +287,11 @@ main{
 .our{
     text-align: center;
 }
-
+/* border */
+.border{
+    border: 1px solid yellow;
+   
+}
 
 
 /* footer section */
@@ -340,6 +344,9 @@ footer{
 @media screen and (min-width: 1024px) {
     .logo {
       display: none;
+    }
+    .border{
+        display: none;
     }
   }
   
