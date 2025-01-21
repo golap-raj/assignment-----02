@@ -335,6 +335,7 @@ footer{
 .padding img {
     margin-top: 10px;
 }
+
 .foot-title{
     font-size: 1.4rem;
     font-weight: 700;
@@ -371,9 +372,7 @@ footer{
         text-align: center;
     }
     .banner img{
-       width: 100%;
-      /* margin: 0px 5px 0px 5px;
-        */
+        width: 223.24px;
     }
     .banner-title{
         font-size: 1.8rem;
