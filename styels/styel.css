@@ -355,6 +355,9 @@ footer{
     .navbar-items{
         display: none;
     }
+    .navbar{
+        padding: 0px 10px 0px 10px;
+    }
     .navbar-button{
         display: none;
     }
@@ -368,8 +371,8 @@ footer{
         text-align: center;
     }
     .banner img{
-        width: 85%;
-        padding: 5px;
+       width: 100%;
+       
     }
     .banner-title{
         font-size: 1.8rem;
@@ -391,17 +394,18 @@ footer{
         
     }
     .item-1{
-        margin-left: 40px;
+        margin-left: 20px;
         padding: 10px 0px 10px 0px;
 
     }
     .item-2{
-        margin-left: 40px;
+       
+        margin-left: 20px;
         padding: 10px 0px 10px 0px;
-
+       
     }
     .item-3{
-        margin-left: 40px;
+        margin-left: 20px;
         padding: 10px 0px 10px 0px;
 
     }
