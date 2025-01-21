@@ -9,6 +9,12 @@
   font-style: normal;
 
 }
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 header{
     max-width: 1060px;
     margin: 0 auto;
@@ -140,6 +146,7 @@ main{
     display: flex;
     gap: 20px;
     padding-top: 70px;
+    
 }
 .item-1{
    
@@ -247,7 +254,49 @@ main{
     margin: 0 auto;
 }
 
+/* footer section */
 
+footer{
+    background-color: rgb(1, 172, 253);
+    padding-top: 100px;
+    padding-bottom: 130px;
+}
+
+.footer-img-content{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.img-content{
+    display: flex;
+    align-items: center;
+}
+
+.foot-content{
+    font-family: 2.6rem;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+}
+.foot-discription{
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+}
+.same-tag{
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+}
+.about{
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+}
+.foot-title{
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+}
 /* Hide the hamburger menu on devices 1024px and wider */
 @media screen and (min-width: 1024px) {
     .logo {
@@ -273,7 +322,8 @@ main{
         text-align: center;
     }
     .banner img{
-        width: 100%;
+        width: 85%;
+        padding: 5px;
     }
     .banner-title{
         font-size: 1.8rem;
@@ -296,21 +346,25 @@ main{
     }
     .item-1{
         margin-left: 40px;
-        padding: 15px 0px 15px 0px;
+        padding: 10px 0px 10px 0px;
 
     }
     .item-2{
         margin-left: 40px;
-        padding: 15px 0px 15px 0px;
+        padding: 10px 0px 10px 0px;
 
     }
     .item-3{
         margin-left: 40px;
-        padding: 15px 0px 15px 0px;
+        padding: 10px 0px 10px 0px;
 
     }
     .icons{
         display: none;
+    }
+    .footer-img-content{
+        flex-direction: column;
+        padding-left: 10px;
     }
     
   }
