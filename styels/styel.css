@@ -372,7 +372,8 @@ footer{
     }
     .banner img{
        width: 100%;
-       
+      /* margin: 0px 5px 0px 5px;
+        */
     }
     .banner-title{
         font-size: 1.8rem;
@@ -410,6 +411,7 @@ footer{
         margin-left: 20px;
         padding: 10px 0px 10px 0px;
         margin-right: 20px;
+        
 
     }
     .icons{
