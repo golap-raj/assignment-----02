@@ -46,6 +46,10 @@ header{
     font-weight: 700;
     color: Black;
 }
+.logo{
+    display: flex;
+    align-items: center;
+}
 .color-1{
     font-size: 1.3rem;
     font-weight: 700;
@@ -238,9 +242,72 @@ main{
     max-width: 1060px;
     margin: 0 auto;
 }
-.child-first-driscription{
+
+
+/* Hide the hamburger menu on devices 1024px and wider */
+@media screen and (min-width: 1024px) {
+    .logo {
+      display: none;
+    }
+  }
   
 
+  @media screen and (max-width: 576px) {
+    .navbar-items{
+        display: none;
+    }
+    .navbar-button{
+        display: none;
+    }
+    .navbar-contant{
+        display: none;
+    }
+    .banner{
+        flex-direction: column-reverse;
+    }
+    .banner-containar{
+        text-align: center;
+    }
+    .banner img{
+        width: 100%;
+    }
+    .banner-title{
+        font-size: 1.8rem;
+    }
+    .banner-discription{
+         font-size: 0.7rem;
+    }
+    .banner-button{
+        padding: 6px 14px;
+        font-size: 0.8rem;
+        border-radius: 8px;
+    }
 
-}
+    .main-taitle{
+        font-size: 1.2rem;
+    }
+    .items{
+        flex-direction: column;
+        
+    }
+    .item-1{
+        margin-left: 40px;
+        padding: 15px 0px 15px 0px;
+
+    }
+    .item-2{
+        margin-left: 40px;
+        padding: 15px 0px 15px 0px;
+
+    }
+    .item-3{
+        margin-left: 40px;
+        padding: 15px 0px 15px 0px;
+
+    }
+    .icons{
+        display: none;
+    }
+    
+  }
 
